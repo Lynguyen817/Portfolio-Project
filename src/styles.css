@@ -1,17 +1,45 @@
-body {
-  font-family: "Play", sans-serif;
-  font-family: "Poppins", sans-serif;
-  background: #f5f5f5;
+:root {
+  --primary-color: #f5f5f5;
+  --secondary-color: #548cff;
+  --default-font-family: "Poppins", sans-serif;
+  --heading-font-family: "Play", sans-serif;
 }
-h1 {
+body {
+  font-family: var(--default-font-family);
+  background: var(--primary-color);
+}
+h1,
+h2,
+h3 {
   text-align: center;
-  margin-top: 100px;
+  font-family: var(--default-font-family);
+  font-weight: bold;
+  color: black;
+  font-size: 70px;
+  margin-top: 40px;
+}
+.headline {
+  text-align: center;
+  padding: 100px;
+}
+.headline h1 {
+  margin-top: 5px;
   font-weight: 600;
   font-size: 80px;
 }
-h2 {
-  text-align: center;
+.headline h2 {
+  font-family: var(--heading-font-family);
   font-size: 30px;
+}
+.headline h3 {
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.btn-primary {
+  background: var(--secondary-color);
+  padding: 20px 25px;
+  line-height: 5px;
 }
 #contact {
   display: flex;
