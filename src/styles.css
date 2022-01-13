@@ -88,3 +88,12 @@ p {
 #contact a {
   color: rgb(124, 120, 120);
 }
+@media (max-width: 900px) {
+  .headline {
+    padding: 60px 20px;
+    max-width: fit-content;
+  }
+  .project-description {
+    text-align: center;
+  }
+}
