@@ -8,6 +8,7 @@
   --background-color: #f5edf5;
   --default-font-family: "Poppins", sans-serif;
   --heading-font-family: "Play", sans-serif;
+  --title-font-family: "Island Moments", cursive;
   --box-shadow: 0 5px 7px rgb(0, 0, 0, 0.7);
 }
 body {
@@ -25,10 +26,13 @@ h3 {
   margin-top: 40px;
 }
 p {
+  font-family: var(--title-font-family);
   text-align: center;
-  font-size: 25px;
-  font-weight: 200;
+  font-size: 70px;
   margin: 40px 60px;
+}
+.name {
+  font-family: var(--title-font-family);
 }
 .headline {
   text-align: center;
@@ -63,6 +67,13 @@ p {
   color: var(--background-color);
   text-decoration: underline;
 }
+.introduction {
+  font-family: var(--title-font-family);
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 40px 60px;
+}
 .title-paragraph {
   font-family: var(--heading-font-family);
   font-size: 35px;
@@ -80,12 +91,12 @@ p {
   color: var(--background-color);
   transition: all 150ms ease-in-out;
 }
-#contact {
+#sub-contact {
   display: flex;
   justify-content: center;
   text-align: center;
 }
-#contact a {
+#sub-contact a {
   color: rgb(124, 120, 120);
 }
 @media (max-width: 900px) {
@@ -115,4 +126,13 @@ p {
   justify-content: center;
   padding: 0;
   max-width: 350px;
+}
+.contact {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 25px;
+}
+.contact a {
+  color: var(--secondary-color);
+  opacity: 0.75;
 }
