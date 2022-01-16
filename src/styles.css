@@ -136,6 +136,11 @@ h5 {
     display: inline-block;
   }
 }
+@media (max-width: 500px) {
+  .contact-box .btn {
+    display: none;
+  }
+}
 .about-section h1 {
   font-size: 60px;
   font-family: var(--default-font-family);
