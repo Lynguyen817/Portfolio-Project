@@ -136,6 +136,8 @@ p {
   max-width: 350px;
 }
 .contact {
+  display: flex;
+  justify-content: space-evenly;
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 25px;
