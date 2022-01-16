@@ -31,6 +31,16 @@ p {
   font-size: 70px;
   margin: 40px 60px;
 }
+h4 {
+  font-family: var(--heading-font-family);
+  font-weight: 600;
+  font-size: 30px;
+}
+h5 {
+  font-family: var(--title-font-family);
+  font-weight: 100;
+  font-size: 20px;
+}
 .name {
   font-family: var(--title-font-family);
 }
@@ -99,10 +109,14 @@ p {
   color: var(--background-color);
   transition: all 150ms ease-in-out;
 }
+.contact-box {
+  background: var(--heading-color);
+  color: black;
+  padding: 5px 10px;
+}
 #sub-contact {
   display: flex;
   justify-content: center;
-  text-align: center;
 }
 #sub-contact a {
   color: rgb(124, 120, 120);
@@ -114,6 +128,12 @@ p {
   }
   .project-description {
     text-align: center;
+  }
+  .contact-page {
+    font-size: 16px;
+  }
+  .sub-contact {
+    display: inline-block;
   }
 }
 .about-section h1 {
@@ -136,13 +156,16 @@ p {
   max-width: 350px;
 }
 .contact {
-  display: flex;
-  justify-content: space-evenly;
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 25px;
+  opacity: 0.9;
 }
 .contact a {
+  text-decoration: none;
   color: var(--secondary-color);
   opacity: 0.75;
+}
+.contact a:hover {
+  text-decoration: underline;
 }
