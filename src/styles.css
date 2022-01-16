@@ -74,20 +74,28 @@ p {
   font-weight: 400;
   margin: 40px 60px;
 }
+.slide-show {
+  display: block;
+  margin: 0 auto;
+  max-width: 620px;
+}
+
 .title-paragraph {
   font-family: var(--heading-font-family);
-  font-size: 35px;
+  font-size: 45px;
 }
 .paragraph-link {
   background: var(--secondary-color);
   color: var(--background-color);
   padding: 10px 15px;
-  line-height: 5px;
+  line-height: 10px;
   border: 1px solid var(--secondary-color);
   border-radius: 7px;
   box-shadow: var(--box-shadow);
+  text-decoration: none;
 }
 .paragraph-link:hover {
+  text-decoration: underline;
   color: var(--background-color);
   transition: all 150ms ease-in-out;
 }
