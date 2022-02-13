@@ -9,7 +9,7 @@
   --default-font-family: "Poppins", sans-serif;
   --heading-font-family: "Play", sans-serif;
   --title-font-family: "Island Moments", cursive;
-  --box-shadow: 0 5px 7px rgb(0, 0, 0, 0.7);
+  --box-shadow: 0 15px 17px rgb(0, 0, 0, 0.6);
 }
 body {
   font-family: var(--default-font-family);
@@ -95,9 +95,17 @@ h5 {
   font-size: 45px;
 }
 .paragraph {
+  border-radius: 20px;
+  margin-top: 40px;
+  padding-left: 50px;
+}
+.project-description {
+  text-align: left;
   background: var(--heading-color);
   border: 1px solid var(--heading-color);
   border-radius: 20px;
+  box-shadow: var(--box-shadow);
+  padding: 10px 20px;
 }
 .paragraph-link {
   background: var(--secondary-color);
@@ -133,6 +141,10 @@ h5 {
   }
   .project-description {
     text-align: center;
+    background: var(--heading-color);
+    border: 1px solid var(--heading-color);
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
   }
   .contact-page {
     font-size: 16px;
