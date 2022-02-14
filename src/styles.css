@@ -94,6 +94,21 @@ h5 {
   font-family: var(--heading-font-family);
   font-size: 45px;
 }
+ul {
+  list-style-type: none;
+}
+.coder-skill {
+  display: inline-block;
+  margin: 15px 20px 0 0;
+}
+.coder-skill img {
+  max-width: 75px;
+}
+.technology {
+  font-family: var(--heading-font-family);
+  font-size: 15px;
+  margin-top: 2px;
+}
 .paragraph {
   border-radius: 20px;
   margin-top: 40px;
@@ -152,6 +167,15 @@ h5 {
   .sub-contact {
     display: inline-block;
   }
+  .coder-skill {
+    display: inline-block;
+    padding: 2px 20px;
+    margin: 5px 55px 5px -18px;
+    max-width: 35px;
+  }
+  .technology {
+    margin: 2px 30px;
+  }
 }
 @media (max-width: 500px) {
   .contact-box .btn {
@@ -176,13 +200,6 @@ h5 {
   justify-content: center;
   padding: 0;
   max-width: 350px;
-}
-.skills-icons {
-  display: flex;
-}
-.technology {
-  font-family: var(--heading-font-family);
-  font-size: 20px;
 }
 .contact {
   font-family: var(--heading-font-family);
